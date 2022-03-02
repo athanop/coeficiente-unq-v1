@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="icon" href="calculator.png" type="image/png"/>
+    <title>Coeficiente UNQ</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row row row-centered pos">
+            <div class="col-lg-8 col-xs-12 col-centered">
+                <div class="box">
+                     
+                    <div id="box-resultado">
+                        <input type="text" id="resultado" size="20" readonly placeholder="RESULTADO">
+                    </div> 
+                     <div id="inputs"> 
+                        <div id="promedio">
+                        <input type="text" id="promedio-input" name="promedio" size="20" onkeypress="enterKeyPressed(event)" placeholder="Ingresá tu promedio">
+                     </div>
+                        <div id="tco">
+                            <input type="text" id="tco-input" name="tco" size="20" onkeypress="enterKeyPressed(event)" placeholder="Ingresá tu TCO">
+                        </div>
+
+                         <div id="tcc">
+                            <select id="tcc-input">
+                                <option id="lic">Licenciatura en informática</option>
+                                <option id="tec-prog">Tecnicatura en programación</option>
+                            </select>
+                      </div>
+                    </div>
+                     <div id="botones">
+                        <button class="calcular" onclick="datos();">Calcular</button>
+                        <button class="limpiar" onclick="limpiar();">Limpiar</button>
+                     </div>    
+                    </div>
+                 </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

@@ -1,0 +1,141 @@
+body{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    margin:auto;
+    overflow: hidden;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*CAJA CONTENEDORA*/
+.box{
+    margin: 100px;
+    height: 380px;
+    width: 290px;
+    border: 2px solid #1c1c1c;
+    box-shadow: 0 0 2px #fff;
+    border-radius: 5%;
+    
+}
+
+#inputs{
+    margin: auto;
+    height: 250px;
+    width: 250px;
+}
+
+
+/*CAJA E INPUT DEL PROMEDIO*/
+
+#promedio-input{
+    margin: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    border: 1px solid #1c1c1c;
+}
+
+#promedio-input:focus {
+    outline: none;
+    border: 1px solid #a0d18c;
+    color: #2d9fd9;
+}
+
+
+
+#tco-input{
+    margin: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    border: 1px solid #1c1c1c;
+}
+
+#tco-input:focus {
+    outline: none;
+    border: 1px solid #a0d18c;
+    color: #2d9fd9;
+}
+
+
+#tcc-input{
+    margin: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    border: 1px solid #1c1c1c;
+    font-size: 15px;
+}
+
+#tcc-input:focus {
+    outline: none;
+    border: 1px solid #a0d18c;
+    color: #2d9fd9;
+}
+
+
+#box-resultado{
+    margin-top: 15px;
+    display: flex;
+    text-align:center;
+    height: 30px;
+    width: 260px;
+}
+
+#resultado{
+    margin-left: 38px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    border: 2px solid #1c1c1c;
+}
+
+
+
+/*BOX DE BOTONES, CON EL CALCULAR Y EL LIMPIAR*/
+#botones{
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    margin: 0 auto;
+}
+
+.calcular{
+    color: #fff;
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: -1px 10px 5px 0px rgba(0,0,0,0.85);
+    -webkit-box-shadow: -1px 10px 5px 0px rgba(0,0,0,0.85);
+    -moz-box-shadow: -1px 10px 5px 0px rgba(0,0,0,0.85);
+}
+
+.limpiar{
+    background: rgb(206, 8, 8);
+    cursor: pointer;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: -1px 10px 5px 0px rgba(0,0,0,0.85);
+    -webkit-box-shadow: -1px 10px 5px 0px rgba(0,0,0,0.85);
+    -moz-box-shadow: -1px 10px 5px 0px rgba(0,0,0,0.85);
+}
+
+button:active {
+    background: rgb(154,137,137);
+    background: linear-gradient(90deg, rgba(154,137,137,1) 0%, rgba(126,94,94,1) 100%);    
+}
+
+
+input{
+    text-align:center;
+ }
+
