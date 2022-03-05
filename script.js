@@ -10,7 +10,7 @@ var datos = function() {
         document.getElementById("resultado").value = "Ingresá valores positivos";
     }
     else if (esLaCarrera(prom,tco,tcc,0)){
-        document.getElementById("resultado").value = "Tu coeficiente es: " + calcularTodo(prom, tco, 430);
+        document.getElementById("resultado").value = "Tu coeficiente es: " + calcularTodo(prom, tco, 466);
     }
     else if (esLaCarrera(prom,tco,tcc,1)){
         document.getElementById("resultado").value = "Tu coeficiente es: " + calcularTodo(prom, tco, 282);
